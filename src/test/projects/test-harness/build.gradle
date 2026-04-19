@@ -53,7 +53,7 @@ dependencies {
     implementation ('org.grails.plugins:quartz-monitor:1.5-SNAPSHOT')
 }
 
-compileJava.options.release = 17
+compileJava.options.release = 21
 
 tasks.withType(Test) {
     useJUnitPlatform()
